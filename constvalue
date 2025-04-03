@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Constant Array
+        </title>
+    </head>
+    <body>
+        <p id="xyz"></p>
+        <p>Maths : <span id="a"></span></p>
+        <script>
+            const marks = [89];
+            document.getElementById("xyz").innerHTML = marks;
+            const Maths = 89;
+            document.getElementById("a").innerHTML = Maths
+        </script>
+    </body>
+</html>
